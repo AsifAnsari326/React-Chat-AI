@@ -34,7 +34,7 @@ function App() {
 
     try {
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=ENTER YOUR API KEY HERE...",//enter api key here
+        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyBSgGAHlDlkreF3j0wnM_C_IZMRSnqwJdw",//enter api key here
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
